@@ -1,5 +1,5 @@
 // Libs
-@import '../../node_modules/normalize.css/normalize';
+@import "../../node_modules/normalize.css/normalize";
 
 // Modals
 // @import '../../node_modules/graph-modal/dist/graph-modal.min';
@@ -14,19 +14,23 @@
 // @import "../../node_modules/swiper/swiper-bundle.min";
 
 // Config
-@import 'config/vars';
-@import 'config/mixins';
-@import 'config/fonts';
-@import 'config/global';
-@import 'config/typography';
-@import 'config/utils';
+@import "config/vars";
+@import "config/mixins";
+@import "config/fonts";
+@import "config/global";
+@import "config/typography";
+@import "config/utils";
 
 // UI
-@import 'ui/container';
-@import 'ui/text';
-@import 'ui/title';
+@import "ui/container";
+@import "ui/text";
+@import "ui/title";
 
 // Components
-@import 'components/header';
-@import 'components/footer';
-@import 'components/graph-modal';
+@import "components/header";
+@import "components/footer";
+@import "components/graph-modal";
+
+.done {
+  text-decoration: line-through;
+}

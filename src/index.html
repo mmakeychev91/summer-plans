@@ -1,14 +1,28 @@
 <!doctype html>
 <html lang="ru" class="page">
-  @include('partials/head.html')
+@include('partials/head.html')
 
-  <body class="page__body">
-    <div class="site-container">
-      @include('partials/header.html')
-      <main class="main">
-        <div class="page-wrapper">hellow world</div>
-      </main>
-      @include('partials/footer.html')
-    </div>
-  </body>
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+    <main class="main">
+      <div class="page-wrapper">
+        <h1>Планы на лето 2024</h1>
+        <ul class="summer-plans">
+          <li class="done">Катамараны на Кабане</li>
+          <li>Сапы</li>
+          <li>Елабуга</li>
+          <li>Челны</li>
+          <li>Нижнекамск</li>
+          <li>Шашлык на берегу "Боровое Матюшино"</li>
+          <li>Шашлык на берегу "Боровое Матюшино"</li>
+          <li>Соль</li>
+          <li>Нить</li>
+        </ul>
+      </div>
+    </main>
+    @include('partials/footer.html')
+  </div>
+</body>
+
 </html>
