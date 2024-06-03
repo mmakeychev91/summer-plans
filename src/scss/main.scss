@@ -34,3 +34,15 @@
 .done {
   text-decoration: line-through;
 }
+h1 {
+  margin-bottom: 24px;
+}
+.summer-plans {
+  li {
+    padding: 8px 0;
+    border-top: 1px solid black;
+    &:last-child {
+      border-bottom: 1px solid black;
+    }
+  }
+}
