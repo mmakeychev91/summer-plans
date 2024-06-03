@@ -2,8 +2,8 @@ html {
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-feature-settings:
-    "pnum" on,
-    "lnum" on;
+    'pnum' on,
+    'lnum' on;
   text-size-adjust: 100%;
 }
 
@@ -125,7 +125,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type="number"] {
+input[type='number'] {
   appearance: textfield;
 }
 
